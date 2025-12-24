@@ -1,0 +1,196 @@
+# ==================================
+# FRONTEND (Next.js/React/TypeScript)
+# ==================================
+
+# Dependencies
+frontend/**/node_modules/
+frontend/**/.pnp
+frontend/**/.pnp.js
+
+# Testing
+frontend/**/coverage/
+
+# Next.js
+frontend/**/.next/
+frontend/**/out/
+
+# Production builds
+frontend/**/build/
+
+# Environment variables
+frontend/**/.env*.local
+frontend/**/.env
+
+# Vercel
+frontend/**/.vercel
+
+# TypeScript
+frontend/**/*.tsbuildinfo
+frontend/**/next-env.d.ts
+
+# Logs
+frontend/**/npm-debug.log*
+frontend/**/yarn-debug.log*
+frontend/**/yarn-error.log*
+frontend/**/pnpm-debug.log*
+
+
+# ==================================
+# BACKEND (Python/FastAPI)
+# ==================================
+
+# Python virtual environments
+backend/**/backend_env/
+backend/**/venv/
+backend/**/env/
+backend/**/ENV/
+backend/**/.venv/
+
+# Byte-compiled / optimized files
+backend/**/__pycache__/
+backend/**/*.py[cod]
+backend/**/*$py.class
+
+# Distribution / packaging
+backend/**/*.egg-info/
+backend/**/dist/
+backend/**/build/
+backend/**/*.egg
+
+# Database
+backend/**/*.db
+backend/**/*.sqlite
+backend/**/*.sqlite3
+
+# Environment variables
+backend/**/.env
+backend/**/.env.local
+
+# Python logs
+backend/**/pip-log.txt
+
+
+# ==================================
+# MODEL (Python/ML)
+# ==================================
+
+# Python virtual environments
+model/**/venv/
+model/**/env/
+model/**/ENV/
+model/**/.venv/
+model/**/fr-md-env/
+
+# Byte-compiled / optimized files
+model/**/__pycache__/
+model/**/*.py[cod]
+model/**/*$py.class
+
+# Model files (uncomment if you don't want to track large model files)
+# model/**/*.pt
+# model/**/*.pth
+# model/**/*.h5
+# model/**/*.onnx
+# model/**/*.pkl
+# model/**/*.pickle
+
+# Distribution / packaging
+model/**/*.egg-info/
+model/**/dist/
+model/**/build/
+model/**/*.egg
+
+# Jupyter Notebook
+model/**/.ipynb_checkpoints/
+model/**/*.ipynb_checkpoints
+
+# Data and logs
+model/**/data/logs/
+model/**/*.tmp
+model/**/*.bak
+
+# Testing
+model/**/.pytest_cache/
+model/**/.coverage
+model/**/htmlcov/
+
+
+# ==================================
+# IDE & EDITOR SETTINGS
+# ==================================
+
+# VS Code
+.vscode/
+**/.vscode/
+
+# JetBrains IDEs (PyCharm, WebStorm, IntelliJ, etc.)
+.idea/
+**/.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Spyder
+.spyderproject
+.spyproject
+
+
+# ==================================
+# OPERATING SYSTEM FILES
+# ==================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+
+# ==================================
+# GENERAL
+# ==================================
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Certificates and keys
+*.pem
+*.key
+*.cert
+
+# Compressed files (optional - uncomment if needed)
+# *.zip
+# *.tar.gz
+# *.rar
+
+# Git files from subprojects
+frontend/**/.git/
+backend/**/.git/
+model/**/.git/
+
+venv
