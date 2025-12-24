@@ -1,0 +1,15 @@
+# Requirements for Jetson Nano ONNX Inference
+# Lightweight dependencies optimized for ARM architecture
+
+# Core dependencies
+opencv-python
+numpy
+# onnxruntime==1.16.3
+
+# Note: For Jetson Nano with GPU acceleration, you can install onnxruntime-gpu
+# However, you'll need to build it from source for ARM architecture
+# See: https://github.com/microsoft/onnxruntime/blob/main/BUILD.md#arm64
+
+# Optional: For GPU support on Jetson (advanced users)
+# You'll need to build onnxruntime-gpu from source with CUDA support
+# Instructions: https://elinux.org/Jetson_Zoo#ONNX_Runtime

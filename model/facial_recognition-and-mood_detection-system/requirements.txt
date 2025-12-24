@@ -1,0 +1,11 @@
+uniface
+opencv-python
+numpy
+requests
+torch
+torchvision
+onnxscript
+# ONNX dependencies
+onnx>=1.12.0
+onnxruntime>=1.16.0
+# For GPU support, use: onnxruntime-gpu>=1.16.0
